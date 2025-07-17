@@ -1,0 +1,6 @@
+name: ""
+tdVersion: ""
+tdPackages:
+    - package: github.com/SudoMagicCode/td-comp-icon
+      releaseTag: v1.1.2
+pythonRequirements: []
