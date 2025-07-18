@@ -9,5 +9,5 @@ This TOX is intended to be a dependency free solution for checking for a live in
 If you are using the [TouchDesigner Dependency Manager](https://github.com/SudoMagicCode/TouchDesigner-Dependency-Manager) you can add this component to your local project with a `add package` command.
 
 ```shell
-tdm add package https://github.com/SudoMagicCode/td-internet-check
+tdm add package github.com/SudoMagicCode/td-internet-check
 ```
