@@ -5,10 +5,11 @@ class connection:
 
     def __init__(self, ownerOp) -> None:
         self.ownerOp = ownerOp
+        self.status_op = ownerOp.op('base_status')
         self._update_status(False)
 
     def _update_status(self, status: bool) -> None:
-        self.ownerOp.par.Connected = status
+        self.status_op.par.Connected = status
 
     def Check_status(self) -> None:
         connection: bool = self._check_status(ip=self.ownerOp.par.Pollingip.eval(),
