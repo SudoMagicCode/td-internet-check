@@ -1,8 +1,8 @@
 {
     "BUILD": "TRUE",
-    "TD_VERSION": "2023.12370",
+    "TD_VERSION": "2025.32280",
     "PROJECT_FILE": "./TouchDesigner/project.toe",
-    "COMP_NAME": "base_internet_check",
+    "COMP_NAME": "internetCheck",
     "BUILD_CONTENTS": "packageZip",
-    "USE_TDM": true
+    "USE_TDM": false
 }
